@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 5rem;   
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-color: rgb(247, 242, 236);
+    padding: 20px;
+    width: 20rem;
+    border-radius: 5px;  
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+}
+
+#myBtn {
+    background-color: rgb(37, 18, 212);
+    color: #ffffff;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+img {
+    border-radius: 20px;
+    padding: 10px;
+    width: 5rem;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#myinput {
+    width: 5em;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
